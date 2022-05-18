@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="./admin.html" />
+  </head>
+  <style>
+      #container{
+
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          row-gap: 10px;
+          column-gap: 20px;
+          margin-top: 200px;
+          margin-left: 10%;
+          
+      }
+
+      #counter{
+          border: 1px solid black;
+          font-size: large;
+          display: inline-block;
+      
+      }
+
+      .product{
+           border: 1px solid black;
+           width: 200px;
+            text-align: center;
+           
+      }
+      .product img{
+        width: 200px;
+      }
+      .product button{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+      }
+  </style>
+  <body>
+    <div id="counter"></div>
+    <div id="container"></div>
+  </body>
+</html>
+
+<script src="./products.js">
+  
+</script>
